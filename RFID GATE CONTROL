@@ -10,11 +10,11 @@
 #define RST_PIN 22 // Reset pin
 #define led1 2
 #define led2 4
-#define SSID "TP-LINK"
-#define PASSWORD "Zohoiot24"
+#define SSID "your wifi name"
+#define PASSWORD "your wifi password"
 
-#define MQTT_USERNAME (char *)"/16017zxtea.zohoiothub.in/v1/devices/2468000000144117/connect"
-#define MQTT_PASSWORD (char *)"6c11fdeb72e8c6c7649a0cf5b2eb057464c3df55417d1f091cd251f22374bf"
+#define MQTT_USERNAME (char *)"your mqtt name"
+#define MQTT_PASSWORD (char *)"your mqtt password"
 
 MFRC522 rfid(SS_PIN, RST_PIN); // Create an MFRC522 instance
 unsigned long ledOnTime = 0; // To store the time when LED was turned on
